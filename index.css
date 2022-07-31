@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+    height:100px;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    
+   
+}
+.straight{
+    display: flex;
+    direction: horizontal;
+}
+
+#image1 {
+    height: 370px;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.iamge{
+    height: 180px;
+    width: 300px;
+}
+
+#space{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    color:black
+}
+
+#button{
+    position: relative;
+    bottom:60px;
+    left: 450px;
+    cursor: pointer;
+    width:140px;
+    height:30px;
+    border-radius: 20px;
+}
